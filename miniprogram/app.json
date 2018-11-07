@@ -1,0 +1,48 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/order/order",
+    "pages/user/user",
+    "pages/product/product",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/cartf/cartf"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "无人收银系统",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#f3ca7e",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "扫码购物",
+        "iconPath": "images/index1.png",
+        "selectedIconPath": "images/index2.png"
+      },
+      {
+        "pagePath": "pages/cartf/cartf",
+        "text": "购物车",
+        "iconPath": "images/cart1.png",
+        "selectedIconPath": "images/cart2.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "个人中心",
+        "iconPath": "images/user1.png",
+        "selectedIconPath": "images/user2.png"
+      }
+    ]
+  }
+}

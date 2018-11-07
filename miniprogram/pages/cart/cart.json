@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "扫码购物",
+  "usingComponents": {
+    "cart": "../../components/cart/cart"
+  }
+}
